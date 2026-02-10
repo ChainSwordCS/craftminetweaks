@@ -1,31 +1,31 @@
 {
 	"schemaVersion": 1,
-	"id": "craftminetweaks",
+	"id": "dirtunjoyer",
 	"version": "${version}",
-	"name": "craftmine tweaks",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Dirt Unjoyer",
+	"description": "25w14craftmine mod that lets you freely enable/disable (hopefully) all unlocks/upgrades.",
 	"authors": [
 		"ChainSwordCS"
 	],
 	"contact": {
-		"homepage": "https://github.com/ChainSwordCS/craftminetweaks",
-		"sources": "https://github.com/ChainSwordCS/craftminetweaks"
+		"homepage": "https://github.com/ChainSwordCS/dirtunjoyer",
+		"sources": "https://github.com/ChainSwordCS/dirtunjoyer"
 	},
-	"license": "ARR",
-	"icon": "assets/craftminetweaks/icon.png",
+	"license": "MIT",
+	"icon": "assets/dirtunjoyer/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.chainswordcs.craftminetweaks.ExampleMod"
+			"com.chainswordcs.dirtunjoyer.ExampleMod"
 		],
 		"client": [
-			"com.chainswordcs.craftminetweaks.ExampleModClient"
+			"com.chainswordcs.dirtunjoyer.ExampleModClient"
 		]
 	},
 	"mixins": [
-		"craftminetweaks.mixins.json",
+		"dirtunjoyer.mixins.json",
 		{
-			"config": "craftminetweaks.client.mixins.json",
+			"config": "dirtunjoyer.client.mixins.json",
 			"environment": "client"
 		}
 	],

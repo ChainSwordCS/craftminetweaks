@@ -1,4 +1,4 @@
-package com.chainswordcs.craftminetweaks;
+package com.chainswordcs.dirtunjoyer;
 
 import net.fabricmc.api.ClientModInitializer;
 

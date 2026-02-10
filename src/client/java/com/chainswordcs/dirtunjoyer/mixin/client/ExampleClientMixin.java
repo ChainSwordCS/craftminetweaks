@@ -1,4 +1,4 @@
-package com.chainswordcs.craftminetweaks.mixin.client;
+package com.chainswordcs.dirtunjoyer.mixin.client;
 
 import net.minecraft.client.MinecraftClient;
 import org.spongepowered.asm.mixin.Mixin;

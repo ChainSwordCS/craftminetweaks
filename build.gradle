@@ -22,7 +22,7 @@ loom {
 	splitEnvironmentSourceSets()
 
 	mods {
-		"craftminetweaks" {
+		"dirtunjoyer" {
 			sourceSet sourceSets.main
 			sourceSet sourceSets.client
 		}
