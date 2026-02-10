@@ -6,6 +6,10 @@ Now you can disable that annoying unlock that drops dirt blocks in your inventor
 
 This code is pretty simple and kinda hacky. It may not function as intended in all cases, I apologize for that, I may update this to fix any such bugs in the future. It's also designed to hopefully work with any future mods that add more unlocks, but no promises there.
 
+## download
+
+You can download the latest release from the Releases tab, or from [Modrinth](https://modrinth.com/mod/dirtunjoyer/)
+
 ## build instructions
 
 run ``./gradlew build`` on linux or WSL,
